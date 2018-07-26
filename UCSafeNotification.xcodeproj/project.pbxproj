@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61F2CFB21096D1A00A8D747 /* UCSafeNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F2CFA21096D1A00A8D747 /* UCSafeNotificationManager.m */; };
+		A61F2CFF21097A6E00A8D747 /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F2CFD21097A6E00A8D747 /* VC1.m */; };
+		A61F2D0021097A6E00A8D747 /* VC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61F2CFE21097A6E00A8D747 /* VC1.xib */; };
+		A61F2D0321097A8200A8D747 /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = A61F2D0221097A8200A8D747 /* VC2.m */; };
 		A6F8C2962109688B007A1C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C2952109688B007A1C3B /* AppDelegate.m */; };
 		A6F8C2992109688B007A1C3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F8C2982109688B007A1C3B /* ViewController.m */; };
 		A6F8C29C2109688B007A1C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F8C29A2109688B007A1C3B /* Main.storyboard */; };
@@ -16,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A61F2CF921096D1A00A8D747 /* UCSafeNotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCSafeNotificationManager.h; sourceTree = "<group>"; };
+		A61F2CFA21096D1A00A8D747 /* UCSafeNotificationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCSafeNotificationManager.m; sourceTree = "<group>"; };
+		A61F2CFC21097A6E00A8D747 /* VC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC1.h; sourceTree = "<group>"; };
+		A61F2CFD21097A6E00A8D747 /* VC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC1.m; sourceTree = "<group>"; };
+		A61F2CFE21097A6E00A8D747 /* VC1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VC1.xib; sourceTree = "<group>"; };
+		A61F2D0121097A8200A8D747 /* VC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VC2.h; sourceTree = "<group>"; };
+		A61F2D0221097A8200A8D747 /* VC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VC2.m; sourceTree = "<group>"; };
 		A6F8C2912109688B007A1C3B /* UCSafeNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCSafeNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F8C2942109688B007A1C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6F8C2952109688B007A1C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A61F2CF821096CFF00A8D747 /* UCSafeNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A61F2CF921096D1A00A8D747 /* UCSafeNotificationManager.h */,
+				A61F2CFA21096D1A00A8D747 /* UCSafeNotificationManager.m */,
+			);
+			path = UCSafeNotification;
+			sourceTree = "<group>";
+		};
 		A6F8C2882109688B007A1C3B = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +78,16 @@
 		A6F8C2932109688B007A1C3B /* UCSafeNotification */ = {
 			isa = PBXGroup;
 			children = (
+				A61F2CF821096CFF00A8D747 /* UCSafeNotification */,
 				A6F8C2942109688B007A1C3B /* AppDelegate.h */,
 				A6F8C2952109688B007A1C3B /* AppDelegate.m */,
 				A6F8C2972109688B007A1C3B /* ViewController.h */,
 				A6F8C2982109688B007A1C3B /* ViewController.m */,
+				A61F2CFC21097A6E00A8D747 /* VC1.h */,
+				A61F2CFD21097A6E00A8D747 /* VC1.m */,
+				A61F2CFE21097A6E00A8D747 /* VC1.xib */,
+				A61F2D0121097A8200A8D747 /* VC2.h */,
+				A61F2D0221097A8200A8D747 /* VC2.m */,
 				A6F8C29A2109688B007A1C3B /* Main.storyboard */,
 				A6F8C29D2109688C007A1C3B /* Assets.xcassets */,
 				A6F8C29F2109688C007A1C3B /* LaunchScreen.storyboard */,
@@ -130,6 +156,7 @@
 			files = (
 				A6F8C2A12109688C007A1C3B /* LaunchScreen.storyboard in Resources */,
 				A6F8C29E2109688C007A1C3B /* Assets.xcassets in Resources */,
+				A61F2D0021097A6E00A8D747 /* VC1.xib in Resources */,
 				A6F8C29C2109688B007A1C3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,7 +170,10 @@
 			files = (
 				A6F8C2992109688B007A1C3B /* ViewController.m in Sources */,
 				A6F8C2A42109688C007A1C3B /* main.m in Sources */,
+				A61F2CFF21097A6E00A8D747 /* VC1.m in Sources */,
+				A61F2D0321097A8200A8D747 /* VC2.m in Sources */,
 				A6F8C2962109688B007A1C3B /* AppDelegate.m in Sources */,
+				A61F2CFB21096D1A00A8D747 /* UCSafeNotificationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
