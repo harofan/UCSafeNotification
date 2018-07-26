@@ -1,0 +1,2 @@
+# UCSafeNotification
+一个用代理和runtime去做的安全的通知,在释放的时候可以不用刻意去移除观察者
