@@ -36,7 +36,7 @@
     NSLog(@"%s",__func__);
 }
 - (IBAction)didClickSendNotifi:(id)sender {
-    [[UCSafeNotificationManager shareManager] sendNotifiName:@"notifi1" notifyArgument:@"哈哈"];
+    [[UCSafeNotificationManager shareManager] sendNotifiName:@"" notifyArgument:@"支持id类型"];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

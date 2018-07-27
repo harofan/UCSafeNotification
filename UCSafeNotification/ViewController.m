@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [[UCSafeNotificationManager shareManager] addNotifyObj:self notifiName:@"notifi1"];
     [[UCSafeNotificationManager shareManager] addNotifyObj:self notifiName:@"notifi2"];
     [[UCSafeNotificationManager shareManager] addNotifyObj:self notifiName:@"notifi3"];
 }
